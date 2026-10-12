@@ -1,0 +1,62 @@
+/* 1. تنظیمات عمومی صفحه */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #1e293b;
+    line-height: 1.6;
+}
+
+/* 2. نوار بالای سایت */
+header {
+    background-color: #0f172a;
+    color: white;
+    padding: 24px 8%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+/* 3. بخش اصلی صفحه */
+main {
+    width: min(900px, 90%);
+    margin: 60px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(15, 23, 42, 0.08);
+}
+
+/* 4. عنوان و متن */
+main h2 {
+    color: #2563eb;
+    font-size: 32px;
+    margin-top: 0;
+}
+
+main p {
+    font-size: 17px;
+    color: #475569;
+}
+
+/* 5. طراحی مناسب موبایل */
+@media (max-width: 600px) {
+    header {
+        padding: 20px 5%;
+    }
+
+    main {
+        margin: 30px auto;
+        padding: 24px;
+    }
+
+    main h2 {
+        font-size: 26px;
+    }
+}
